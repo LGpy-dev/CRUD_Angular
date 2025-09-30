@@ -4,6 +4,7 @@ import { Cliente } from './cadastro/cliente';
 @Injectable({
   providedIn: 'root'
 })
+
 export class ClienteService {
 
   static REPO_CLIENTES = "_CLIENTES";
